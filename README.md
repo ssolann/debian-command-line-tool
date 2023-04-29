@@ -27,6 +27,3 @@ Output the top 10 packages with the most number of files.
 5. Implement the tool
 The final step was to implement the tool according to the plan. I used the argparse module to parse the command-line arguments and the requests library to download the "Contents" file from the Debian mirror. I then used the gzip library to decompress the file and the collections module to count the number of files for each package. Finally, I outputted the top 10 packages with the most number of files.
 
-# Conclusion
-In this exercise I took a systematic approach to solve the problem by understanding the problem statement and the format of the "Contents" file, identifying the requirements and constraints, choosing the tools and libraries, planning the implementation, and implementing the tool. The final tool is a Python command-line tool that can efficiently download and parse the "Contents" file associated with a specified architecture from a Debian mirror and output the top 10 packages with the most number of files.
-
